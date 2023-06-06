@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 900px;
+    margin: 50px auto;
+    animation: 1s fadeIn;
+}
+
+.title {
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0%{
+      transform: translate(0, 10px);
+      opacity: 0;
+    }
+    100%{
+      transform: translate(0,0);
+      opacity: 1;
+    }
+  }

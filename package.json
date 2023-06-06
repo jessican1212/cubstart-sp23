@@ -1,0 +1,30 @@
+{
+  "name": "cubstart-sp-23",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.4.4",
+    "@types/mdx": "^2.0.5",
+    "add": "^2.0.6",
+    "gray-matter": "^4.0.3",
+    "next": "13.4.4",
+    "raw-loader": "^4.0.2",
+    "react": "18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-card-flip": "^1.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-parallax-tilt": "^1.7.144",
+    "react-responsive-carousel": "^3.2.23",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2"
+  }
+}

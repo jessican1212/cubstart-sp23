@@ -1,0 +1,51 @@
+.container{
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    animation: 1s fadeIn;
+}
+
+.imgHolder{
+    height: 30vh;
+    background-image: url(./staff.svg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHolder h1{
+    color: white;
+    margin: 20px;
+}
+
+.staffWrapper{
+    text-align: center;
+}
+
+.staffWrapper h1{
+    margin-top: 50px;
+    color: var(--dark-accent);
+    font-size: 40px;
+}
+
+.cardWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@keyframes fadeIn {
+    0%{
+      transform: translate(0, 10px);
+      opacity: 0;
+    }
+    100%{
+      transform: translate(0,0);
+      opacity: 1;
+    }
+  }

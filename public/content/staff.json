@@ -1,0 +1,96 @@
+{
+    "lecturers": [
+      {
+        "image": "assets/staff/andy.jpg",
+        "name": "Andy Huang",
+        "title": "Course/iOS Lead",
+        "description": "Hi! I’m Andy and I’m a third year studying computer science. I spend way too much time on Netflix and watching anime! Feel free to talk to me if you have show recommendations or have questions regarding iOS development!",
+        "social": "@andyy_huang"
+      },
+      {
+        "name": "Madhav Varshney",
+        "title": "Web Lead"
+      },
+      {
+        "image": "assets/staff/jessica.jpg",
+        "name": "Jessica Ng",
+        "title": "Web Lead",
+        "description": "Hi everyone, I’m Jessica, a second-year intended CS major from the Bay Area! You can usually find me reading, crocheting, playing Tetris, or binge-watching trashy reality shows. I'm so excited to be leading Cubstart this semester!",
+        "social": "@jessican_1212"
+      },
+      {
+        "image": "assets/staff/juliet.jpg",
+        "name": "Juliet Kim",
+        "title": "iOS Lecturer",
+        "description": "Hey! I'm Juliet and I'm a senior studying CS from LA. I love journaling, baking, hitting that 12-3-30, and matcha lemonade <3. Super excited to meet everyone this semester!",
+        "social": "@julietkim_"
+      }
+    ],
+    "tas": [
+        {
+        "image": "assets/staff/abinaya.png",
+        "name": "Abinaya Dinesh",
+        "title": "iOS TA",
+        "description": "Hi! I'm Abinaya - a first year double majoring in Data Science and CRS. I'm really interested in climate tech and food systems, and I love croissants, embroidery, journalling, and coding on the weekends!",
+        "social": "513-293-4206"
+      },
+      {
+      "image": "assets/staff/enya.jpg",
+      "name": "Enya Do",
+      "title": "iOS TA",
+      "description": "Hello, I'm Enya! I'm a first year studying computer science. I love digital art/design, consuming ungodly amounts of caffeine in all forms, and cubstart (of course)!",
+      "social": "@enyaado"
+      },
+      {
+        "image": "assets/staff/alex.jpg",
+        "name": "Alexander Goldberg",
+        "title": "Web TA",
+        "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
+        "social": "@alex.gberg"
+      },
+      {
+        "image": "assets/staff/bryan.jpeg",
+        "name": "Bryan Chu",
+        "title": "Web TA",
+        "description": "Hi! I’m a junior studying CS from Saratoga, California. In my free time, I like to be active and exercise as well as binge k-dramas. I’m also a big Warriors and 49ers fan. Feel free to reach out to me about anything!",
+        "social": "@bryannchu"
+      },
+      {
+        "image": "assets/staff/nick.jpg",
+        "name": "Nick Jiang",
+        "title": "Web TA",
+        "description": "Hello! I’m a second year CS and philosophy student passionate about building high-impact products. I love biking, reading, and talking with people in all places and times!",
+        "social": "@nickhjiang"
+      },
+      {
+        "image": "assets/staff/pratyush.png",
+        "name": "Pratyush Sharma",
+        "title": "Web TA",
+        "description": "Hello, my name is Pratyush, I am a third year student majoring in Computer Science. Feel free to reach out if you have any questions about the course!",
+        "social": ""
+      }
+    ],
+    "pastStaff": [
+      {
+        "image": "assets/staff/steffi.jpg",
+        "name": "Steffi Tan",
+        "social": "@staph.e"
+      },
+      {
+        "image": "assets/staff/tyler.jpg",
+        "name": "Tyler Sameshima",
+        "social": "@tysameshima"
+      },
+      {
+        "image": "assets/staff/tony.jpg",
+        "name": "Tony Hong",
+        "social": "@tshong"
+      },
+      {
+        "image": "assets/staff/oliver.jpg",
+        "name": "Oliver Carmont",
+        "social": "@oliver.cz"
+      }
+    ]
+  }
+  
