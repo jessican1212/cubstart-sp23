@@ -25,6 +25,7 @@
     "react-parallax-tilt": "^1.7.144",
     "react-responsive-carousel": "^3.2.23",
     "remark": "^14.0.3",
+    "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.2"
   }
 }

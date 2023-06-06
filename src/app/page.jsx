@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.flexItem} id={styles.left}>
         <div className={styles.textWrapper}>
           <h1>Cubstart: Introduction to Building Apps</h1>
-          <h2>CS 198 • Spring 2023</h2>
+          <h2>CS 198 • Fall 2023</h2>
           <h3>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</h3>
           <div className={styles.buttonContainer}>
             <a className={styles.applyButton} href="#">Apps will open soon!</a>

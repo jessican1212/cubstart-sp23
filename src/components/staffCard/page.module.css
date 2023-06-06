@@ -19,13 +19,17 @@
     text-align: left;
 }
 
+.right h2{
+    font-weight: 500;
+}
+
 .bottom{
     margin-top: 15px;
     text-align: left;
 }
 
 .bottom p{
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .card img {

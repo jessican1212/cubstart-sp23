@@ -18,3 +18,36 @@
       opacity: 1;
     }
   }
+
+  .wrapper h2 {
+    font-weight: 300;
+    line-height: 70px;
+    font-size: 30px;
+  }
+
+  .wrapper p {
+    font-weight: 200;
+    line-height: 30px;
+  }
+
+  .wrapper li {
+    font-weight: 200;
+    line-height: 30px;
+    margin-left: 30px;
+  }
+
+  .wrapper th {
+    background-color: var(--dark-accent);
+    color: white;
+    padding: 10px;
+  }
+
+  .wrapper td {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--transparent-accent);
+  }
+
+  .wrapper thead tr {
+    background-color: red;
+  }
