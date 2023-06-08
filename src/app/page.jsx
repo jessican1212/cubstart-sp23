@@ -91,7 +91,7 @@ export default function Home() {
     </label>
     <label className={styles.accordion__item}>
       <input type="checkbox" name="accordion"/>
-      <div className={styles.accordion__title}>Is there any required material?</div>
+      <div className={styles.accordion__title}>Are there any required materials?</div>
       <div className={styles.accordion__content}>If participating in the iOS track, you'll need a MacBook with macOS 10.14.3+ later that can run Xcode 11. Older Macs may run into some issues. <br/><br/>For the web track, you should be fine with nearly any laptop.</div>
     </label>
     <label className={styles.accordion__item}>

@@ -15,7 +15,8 @@
 }
 
 .textWrapper{
-    width: 525px;
+    max-width: 525px;
+    margin: 20px;
     animation: 1s fadeIn;
 }
 
@@ -62,6 +63,7 @@
 
 #right img{
     width: 500px;
+    margin: 20px;
     animation: 1s fadeIn;
 }
 
@@ -93,7 +95,7 @@
 }
 
 .sectionWrapper{
-    padding: 60px;
+    padding: 60px 20px;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #DBD9D5;
@@ -118,11 +120,13 @@
 .projectContainer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .SponsContainer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .SponsContainer img{

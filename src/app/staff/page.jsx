@@ -39,29 +39,29 @@ const Staff = () => {
   );
   
 
-useEffect(() => {
-    fetch("content/staff.json")
-    .then((res) => res.json())
-    .then((jsonData) => setStaffInfo(jsonData))
-}, []);
+  useEffect(() => {
+      fetch("content/staff.json")
+      .then((res) => res.json())
+      .then((jsonData) => setStaffInfo(jsonData))
+  }, []);
 
   return (
       <div className={styles.container}>
         <div className={styles.imgHolder}>
-          <h1>Meet the Staff</h1>
+          <h1>Fall 2023 Course Staff</h1>
         </div>
         <div className={styles.staffWrapper}>
           <h1>Lecturers</h1>
           <div className={styles.cardWrapper}>
-            {staffInfo.lecturers.map((staff) => <StaffCard content={staff}/>)}
+            {staffInfo.lecturers.map((staff, index) => <StaffCard content={staff} key={index}/>)}
           </div>
           <h1>Teaching Assistants</h1>
           <div className={styles.cardWrapper}>
-            {staffInfo.tas.map((staff) => <StaffCard content={staff}/>)}
+            {staffInfo.tas.map((staff, index) => <StaffCard content={staff} key={index}/>)}
           </div>
           <h1>Past Leads</h1>
           <div className={styles.cardWrapper}>
-            {staffInfo.pastStaff.map((staff) => <StaffCard content={staff}/>)}
+            {staffInfo.pastStaff.map((staff, index) => <StaffCard content={staff} key={index}/>)}
           </div>
       </div>
     </div>

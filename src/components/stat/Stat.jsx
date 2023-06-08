@@ -3,7 +3,7 @@ import React from 'react'
 
 function Stat(props) {
   return (
-    <div className={styles.stats} style={{"background-color": props.col}}>
+    <div className={styles.stats} style={{"backgroundColor": props.col}}>
         <img src={props.source}></img>
         <h2>{props.number}</h2>
         <h3>{props.desc}</h3>

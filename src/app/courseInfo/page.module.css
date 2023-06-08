@@ -51,3 +51,7 @@
   .wrapper thead tr {
     background-color: red;
   }
+
+  .wrapper div{
+    padding: 20px;
+  }

@@ -8,7 +8,7 @@ const CourseInfo = () => {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.title}>Course Information</h1>
-      <Syllabus />
+      <div><Syllabus /></div>
     </div>
   )
 }
