@@ -3,6 +3,7 @@ import remarkGfm from "remark-gfm";
 
 // /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   pageExtensions: ["ts", "tsx", "js", "jsx", "mdx"],
   experimental: {
     appDir: true,

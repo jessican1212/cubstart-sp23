@@ -1,7 +1,5 @@
-"use client"
-
 import React from 'react'
-import Syllabus from '../mdxFiles/courseInfo.mdx';
+import Syllabus from 'public/content/courseInfo.mdx';
 import styles from './page.module.css'
 
 const CourseInfo = () => {

@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import styles from './page.module.css'

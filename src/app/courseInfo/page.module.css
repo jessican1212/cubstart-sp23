@@ -37,19 +37,23 @@
   }
 
   .wrapper th {
-    background-color: var(--dark-accent);
+    background-color: var(--main);
     color: white;
     padding: 10px;
+    font-weight: 400;
   }
 
   .wrapper td {
     text-align: center;
     padding: 10px;
-    background-color: var(--transparent-accent);
   }
 
-  .wrapper thead tr {
-    background-color: red;
+  .wrapper tr:nth-child(even) {
+    background-color: rgb(237, 242, 244);
+  }
+
+  .wrapper tr:nth-child(odd) {
+    background-color: white;
   }
 
   .wrapper div{

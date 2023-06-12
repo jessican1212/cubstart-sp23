@@ -6,9 +6,10 @@
 }
 
 .carousel {
-    margin: 25px 0;
+    margin: 0px 20px;
+    width: 600px;
 }
 
 .carousel .control-arrow {
-    background-color: transparent!important;
+    background: red !important;
 }

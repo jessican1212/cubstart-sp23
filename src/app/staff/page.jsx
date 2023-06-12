@@ -1,56 +1,11 @@
-"use client"
-
 import React from 'react'
 import styles from './page.module.css'
 import StaffCard from '@/components/staffCard/StaffCard'
-import { useState, useEffect } from "react";
+import staffInfo from "public/content/staff.json"
 
-const Staff = () => {
-
-  const [staffInfo, setStaffInfo] = useState({
-    "lecturers": [
-      {
-        "image": "",
-        "name": "",
-        "title": "",
-        "description": "",
-        "social": ""
-      }
-    ],
-    "tas": [
-      {
-        "image": "",
-        "name": "",
-        "title": "",
-        "description": "",
-        "social": ""
-      }
-    ],
-    "pastStaff": [
-      {
-        "image": "",
-        "name": "",
-        "title": "",
-        "description": "",
-        "social": ""
-      }
-    ]
-  }
-  );
-  
-
-  useEffect(() => {
-      fetch("content/staff.json")
-      .then((res) => res.json())
-      .then((jsonData) => setStaffInfo(jsonData))
-  }, []);
-
+function Staff() {
   return (
-      <div className={styles.container}>
-        <div className={styles.imgHolder}>
-          <h1>Fall 2023 Course Staff</h1>
-        </div>
-        <div className={styles.staffWrapper}>
+      <div className={styles.staffWrapper}>
           <h1>Lecturers</h1>
           <div className={styles.cardWrapper}>
             {staffInfo.lecturers.map((staff, index) => <StaffCard content={staff} key={index}/>)}
@@ -62,7 +17,6 @@ const Staff = () => {
           <h1>Past Leads</h1>
           <div className={styles.cardWrapper}>
             {staffInfo.pastStaff.map((staff, index) => <StaffCard content={staff} key={index}/>)}
-          </div>
       </div>
     </div>
   )

@@ -6,6 +6,7 @@ import Stat from '@/components/stat/Stat'
 import Carousel from '@/components/carousel/Carousel'
 import Project from '@/components/project/Project'
 import Partner from '@/components/partner/Partner'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -30,12 +31,13 @@ export default function Home() {
       <Stat source="assets/icons8-female-50.png" number="50%" desc="female/non-binary" col="var(--accent)"/>
       <Stat source="assets/icons8-handshake-50.png" number="3+" desc="partnered URM organizations" col="var(--dark-accent)"/>
     </div>
+    <img className={styles.ddoski} src="assets/ddoski.png"></img>
     <div className={styles.sectionWrapper}>
+      <Carousel />
       <div className={styles.infoSection}>
         <h1>What is Cubstart?</h1>
         <h3>Cubstart is a student-run course as part of the <span className={styles.underline}>DeCal Program</span> at University of California, Berkeley. We're run by members of <span className={styles.underline}>Cal Hacks</span>, the world's largest collegiate hackathon. We've been running since Fall 2020, with the aim of supporting underrepresented minorities and beginner to intermediate developers in their journeys in STEM.</h3>
         <h3>We have 2 tracks, <span className={styles.underline}>iOS</span> development and <span className={styles.underline}>Web</span> development, so students can choose the platform they prefer.</h3>
-        <Carousel/>
         <h3>Throughout the semester, we provide mentorship and resources for students to learn how to build an app from start to finish: ideation, team-building, programming, pitching, and more. Our students hone these skills in a month-long final project, where they work in teams to develop an app! We end off with <span className={styles.underline}>Demo Day</span>, a mini-hackathon for students to show off their creations.</h3>
       </div>
     </div>
@@ -55,7 +57,7 @@ export default function Home() {
         <div className={styles.projectWrapper}>
           <h1>Sponsors</h1>
           <h3>Thank you to our sponsors for helping us run Cubstart!</h3>
-          <h3><em>Interested in sponsoring us? Contact cubstart@calhacks.io.</em></h3>
+          <h3><em>Interested in sponsoring us? Check out our <Link href="/sponsorship"><span id={styles.sponsPacket}>sponsorship packet</span></Link> and contact cubstart@calhacks.io.</em></h3>
           <div className = {styles.SponsContainer}>
             <img src="assets/digital_ocean_logo.png"></img>
             <img src="assets/optiver_logo.png"></img>

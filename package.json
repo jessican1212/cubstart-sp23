@@ -24,6 +24,7 @@
     "react-markdown": "^8.0.7",
     "react-parallax-tilt": "^1.7.144",
     "react-responsive-carousel": "^3.2.23",
+    "react-tabs": "^6.0.1",
     "rehype-slug": "^5.1.0",
     "remark": "^14.0.3",
     "remark-gfm": "^3.0.1",

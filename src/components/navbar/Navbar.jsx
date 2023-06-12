@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import {React, useState} from 'react'
 import styles from './page.module.css'
-import Burger from '@/components/burger/Burger'
 
 const Navbar = () => {
 
@@ -24,14 +23,16 @@ const Navbar = () => {
         </div>
         <div className={styles.links}>
           <Link href="/"><span>Home</span></Link>
-          <Link href="/schedule"><span>Schedule</span></Link>
+          <Link href="/web-schedule"><span>Web</span></Link>
+          <Link href="/ios-schedule"><span>iOS</span></Link>
           <Link href="/staff"><span>Staff</span></Link>
           <Link href="/courseInfo"><span>Course Info</span></Link>
         </div>
     </div>
     <div className={styles.mobileMenu} style={burgerOpen ? {display: 'flex'} : {display: 'none'}}>
       <Link href="/"><span>Home</span></Link>
-      <Link href="/schedule"><span>Schedule</span></Link>
+      <Link href="/web-schedule"><span>Web</span></Link>
+      <Link href="/ios-schedule"><span>iOS</span></Link>
       <Link href="/staff"><span>Staff</span></Link>
       <Link href="/courseInfo"><span>Course Info</span></Link>
     </div>
