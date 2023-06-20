@@ -36,8 +36,8 @@ export default function Home() {
       <Carousel />
       <div className={styles.infoSection}>
         <h1>What is Cubstart?</h1>
-        <h3>Cubstart is a student-run course as part of the <span className={styles.underline}>DeCal Program</span> at University of California, Berkeley. We're run by members of <span className={styles.underline}>Cal Hacks</span>, the world's largest collegiate hackathon. We've been running since Fall 2020, with the aim of supporting underrepresented minorities and beginner to intermediate developers in their journeys in STEM.</h3>
-        <h3>We have 2 tracks, <span className={styles.underline}>iOS</span> development and <span className={styles.underline}>Web</span> development, so students can choose the platform they prefer.</h3>
+        <h3>Cubstart is a student-run course as part of the <span className={styles.underline}>DeCal Program</span> at University of California, Berkeley. We're run by members of <span className={styles.underline}>Cal Hacks</span>, the world's largest collegiate hackathon. We've been running since Fall 2020, with the aim of supporting underrepresented minorities and beginner to intermediate developers in their journeys in STEM.
+        We have 2 tracks, <span className={styles.underline}>iOS</span> development and <span className={styles.underline}>Web</span> development, so students can choose the platform they prefer.</h3>
         <h3>Throughout the semester, we provide mentorship and resources for students to learn how to build an app from start to finish: ideation, team-building, programming, pitching, and more. Our students hone these skills in a month-long final project, where they work in teams to develop an app! We end off with <span className={styles.underline}>Demo Day</span>, a mini-hackathon for students to show off their creations.</h3>
       </div>
     </div>
