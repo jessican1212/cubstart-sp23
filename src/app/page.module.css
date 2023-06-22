@@ -32,7 +32,7 @@
 
 .textWrapper h3 {
     margin: 10px 0;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .textWrapper button{
@@ -269,10 +269,22 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 890px) {
     .header{
         display: flex;
         flex-wrap: wrap;
         height: auto;
     }
+    #right{
+      background-color: var(--bg);
+    }
+    #right img{
+      width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+  #right img{
+    width: 80vw;
+  }
 }
