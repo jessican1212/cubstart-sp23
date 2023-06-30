@@ -56,12 +56,13 @@
 .table a{
   color: var(--dark-accent);
   font-weight: 600;
-  padding: 0px 6px;
-  border-radius: 20px;
-  }
-  
+  padding: 2px 5px;
+  border-radius: 5px;
+  transition: ease-in 0.1s;
+}
+
 .table a:hover{
-  border: 1px solid var(--dark-accent);
+  background-color: rgba(128, 128, 128, 0.19);
 }
 
 @keyframes fadeIn {

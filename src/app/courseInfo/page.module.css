@@ -21,7 +21,8 @@
 
   .wrapper h2 {
     font-weight: 300;
-    line-height: 70px;
+    margin-top: 15px;
+    margin-bottom: 3px;
     font-size: 30px;
   }
 
@@ -36,11 +37,15 @@
     margin-left: 30px;
   }
 
+  .wrapper table{
+    margin: 20px auto;
+  }
+
   .wrapper th {
     background-color: var(--main);
     color: white;
     padding: 10px;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .wrapper td {

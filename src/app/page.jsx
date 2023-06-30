@@ -1,11 +1,11 @@
 "use client"
 
 import styles from './page.module.css'
-import Tilt from 'react-parallax-tilt';
 import Stat from '@/components/stat/Stat'
 import Carousel from '@/components/carousel/Carousel'
 import Project from '@/components/project/Project'
 import Partner from '@/components/partner/Partner'
+import Three from '@/components/three/Three'
 import Link from 'next/link'
 
 export default function Home() {
@@ -23,7 +23,8 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.flexItem} id={styles.right}>
-        <Tilt><img src="assets/home-graphic.svg"></img></Tilt>
+        <Three />
+        <p>Click and drag to orbit</p>
       </div>
     </div>
     <div className={styles.sectionWrapper}>
@@ -44,7 +45,7 @@ export default function Home() {
     <div className={styles.sectionWrapper}>
         <div className={styles.projectWrapper}>
           <h1>Cubstart Creations</h1>
-          <h3>Here are just a few of many outstanding projects developed by Cubstart alumni!</h3>
+          <h3>Here are a few of many outstanding projects developed by Cubstart alumni!</h3>
           <h3><em><span className={styles.highlight}>Click each card for more info!</span></em></h3>
           <div className = {styles.projectContainer}>
             <Project title="PLTNM" source="assets/PLTNM.png" link="https://pltnm.netlify.app/" description="PLTNM is a music game that you can play with friends: you'll hear a song and have to guess which one of them has it in his playlist. The app allows you to choose and upload your best songs playlist from your preferred music service. It then builds a selection of songs from you and your friends, especially those you have in common!"/>
